@@ -8,10 +8,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var pictures = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let fm = FileManager.default // built-in system type that lets us work with the file manager
+        let path = Bundle.main.resourcePath!
+        //Bundle is a directory containing our compiled program and all our assets
+        //this ! is necessary because our bundle might not have a rescource path
+        let items = try! fm.contentsOfDirectory(atPath: path)
+        for item in items{
+            if item.hasPrefix("nssl"){
+                //this is picture to load
+                pictures.append(item)
+            }
+        }
+        print(pictures)
     }
 
 
