@@ -12,12 +12,28 @@ class DetailViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     //IBOutlet attribute tells xcode that there's a connection between this line of code and something in interface builder
     var selectedImage: String?
+    var total: Int?
+    var currentCount: Int?
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Picture \(currentCount!) of \(total!)"
+        
+        navigationItem.largeTitleDisplayMode = .never
+        
         if let imageToLoad = selectedImage{
             imageView.image = UIImage(named: imageToLoad)
         }
         // Do any additional setup after loading the view.
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.hidesBarsOnTap = true
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationController?.hidesBarsOnTap = false
     }
     
 
