@@ -66,7 +66,6 @@
                             <constraint firstAttribute="bottomMargin" secondItem="zAo-ST-Ytk" secondAttribute="bottom" constant="-34" id="b4a-bV-g8N"/>
                             <constraint firstItem="zAo-ST-Ytk" firstAttribute="leading" secondItem="uQW-aJ-IVd" secondAttribute="leading" id="bNs-eZ-bKi"/>
                             <constraint firstItem="zAo-ST-Ytk" firstAttribute="top" secondItem="fOj-iP-9D1" secondAttribute="top" id="kXn-Tz-SvW"/>
-                            <constraint firstItem="zAo-ST-Ytk" firstAttribute="top" secondItem="fOj-iP-9D1" secondAttribute="topMargin" constant="-66" id="med-Nf-p3H"/>
                         </constraints>
                     </view>
                     <connections>

@@ -28,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		5623EE6C28DC1A9E000ED638 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		567AA4B728DAF54B00C4ED4B /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		567AA4B728DAF54B00C4ED4B /* Project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		567AA4BA28DAF54B00C4ED4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		567AA4BC28DAF54B00C4ED4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		567AA4BE28DAF54B00C4ED4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		567AA4AE28DAF54B00C4ED4B = {
 			isa = PBXGroup;
 			children = (
-				567AA4B928DAF54B00C4ED4B /* Project1 */,
+				567AA4B928DAF54B00C4ED4B /* Project3 */,
 				567AA4B828DAF54B00C4ED4B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,12 +70,12 @@
 		567AA4B828DAF54B00C4ED4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				567AA4B728DAF54B00C4ED4B /* Project1.app */,
+				567AA4B728DAF54B00C4ED4B /* Project3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		567AA4B928DAF54B00C4ED4B /* Project1 */ = {
+		567AA4B928DAF54B00C4ED4B /* Project3 */ = {
 			isa = PBXGroup;
 			children = (
 				567AA4BA28DAF54B00C4ED4B /* AppDelegate.swift */,
@@ -88,7 +88,7 @@
 				567AA4C828DAF54C00C4ED4B /* Info.plist */,
 				567AA4CE28DAF89000C4ED4B /* Content */,
 			);
-			path = Project1;
+			path = Project3;
 			sourceTree = "<group>";
 		};
 		567AA4CE28DAF89000C4ED4B /* Content */ = {
@@ -111,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		567AA4B628DAF54B00C4ED4B /* Project1 */ = {
+		567AA4B628DAF54B00C4ED4B /* Project3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 567AA4CB28DAF54C00C4ED4B /* Build configuration list for PBXNativeTarget "Project1" */;
+			buildConfigurationList = 567AA4CB28DAF54C00C4ED4B /* Build configuration list for PBXNativeTarget "Project3" */;
 			buildPhases = (
 				567AA4B328DAF54B00C4ED4B /* Sources */,
 				567AA4B428DAF54B00C4ED4B /* Frameworks */,
@@ -123,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = Project1;
+			name = Project3;
 			productName = Project1;
-			productReference = 567AA4B728DAF54B00C4ED4B /* Project1.app */;
+			productReference = 567AA4B728DAF54B00C4ED4B /* Project3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -143,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 567AA4B228DAF54B00C4ED4B /* Build configuration list for PBXProject "Project1" */;
+			buildConfigurationList = 567AA4B228DAF54B00C4ED4B /* Build configuration list for PBXProject "Project3" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -156,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				567AA4B628DAF54B00C4ED4B /* Project1 */,
+				567AA4B628DAF54B00C4ED4B /* Project3 */,
 			);
 		};
 /* End PBXProject section */
@@ -395,7 +395,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		567AA4B228DAF54B00C4ED4B /* Build configuration list for PBXProject "Project1" */ = {
+		567AA4B228DAF54B00C4ED4B /* Build configuration list for PBXProject "Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				567AA4C928DAF54C00C4ED4B /* Debug */,
@@ -404,7 +404,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		567AA4CB28DAF54C00C4ED4B /* Build configuration list for PBXNativeTarget "Project1" */ = {
+		567AA4CB28DAF54C00C4ED4B /* Build configuration list for PBXNativeTarget "Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				567AA4CC28DAF54C00C4ED4B /* Debug */,
