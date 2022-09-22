@@ -11,9 +11,12 @@ class DetailViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
     //IBOutlet attribute tells xcode that there's a connection between this line of code and something in interface builder
+    var selectedImage: String?
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if let imageToLoad = selectedImage{
+            imageView.image = UIImage(named: imageToLoad)
+        }
         // Do any additional setup after loading the view.
     }
     
